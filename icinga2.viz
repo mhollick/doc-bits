@@ -1,0 +1,7 @@
+digraph {
+ y [label="Nagios plugin"]
+ a [label="Check command"]
+ b [label="Service"]
+ c [label="Host"]
+ c -> b -> a -> y
+}

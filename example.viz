@@ -1,0 +1,7 @@
+digraph {
+ y [label="Nagios plugin:\nexample-pong.py"]
+ a [label="Check command:\nepong"]
+ b [label="Service:\npong"]
+ c [label="Host:\nexample"]
+ c -> b -> a -> y
+}

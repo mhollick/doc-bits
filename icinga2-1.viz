@@ -1,0 +1,14 @@
+digraph {
+ j [label="Nagios plugin"]
+ x [label="Host check command"]
+ y [label="Nagios plugin 1"]
+ a [label="Check command 1"]
+ b [label="Service 1"]
+ e [label="Nagios plugin 2"]
+ f [label="Check command 2"]
+ g [label="Service 2"]
+ c [label="Host"]
+ c -> x -> j
+ c -> b -> a -> y
+ c -> g -> f -> e
+}
